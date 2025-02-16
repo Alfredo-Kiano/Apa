@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Diskusi Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Heaer-->
+    <header class="forum-header">
+        <h1>Forum Komunitas</h1>
+        <p>berdiskusi dengan santuy</p>
+    </header>
+
+    <!--Daftar Thread-->
+    <div class="container">
+        <!--TOmbol buat thread-->
+        <a href="#buat-theread" class="btn-buat-thread">+ Buat Thread Baru</a>
+
+        <!--contoh thread-->
+        <div class="thread-list">
+            <!--thread 1-->
+            <div class="thread-item">
+                <h3 class="thread-title"><a href="#">Nia hi Rahul g lawa!</a></h3>
+                <div class="thread-meta">
+                    <span class="author">Oleh: Alfredo Kiano</span>
+                    <span class="replies">12 Balasan</span>
+                    <span class="last-post">Terakhir: 5j lalu</span>
+                </div>
+            </div>
+            <!--thread 2-->
+            <div class="thread-item">
+                <h3 class="thread-title"><a href="#">Rekomendasi buku untuk UI/UX</a></h3>
+                <div class="thread-meta">
+                    <span class="author">Oleh: Delly</span>
+                    <span class="replies">3 Balasan</span>
+                    <span class="last-post">Terakhir: 1 menit lalu</span>
+                </div>
+            </div>          
+            <div class="thread-item">
+                <h3 class="thread-title"><a href="#">Teman-teman cala manga koe ita hi Emad tio bo</a></h3>
+                <div class="thread-meta">
+                    <span class="author">Oleh: Butek APK</span>
+                    <span class="replies">0 Balasan</span>
+                    <span class="last-post">Terakhir: 1d lalu</span>
+                </div>
+            </div>            
+        </div>
+     
+        </div>
+        <!--Form Buat Thread (Pop-Up)-->
+        <div id="buat-thread" class="buat-thread-form">
+            <h2>Buat Thread Baru</h2>
+            <form>
+                <input type="text" placeholder="Judul Thread" required>
+                <textarea placeholder="Isi Pesan..." rows="5" required></textarea>
+                <button type="submit">Posting Thread</button>
+            </form>
+        </div>
+</body>
+
+</html>
